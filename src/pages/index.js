@@ -21,7 +21,6 @@ export default function Home() {
         <Button className="menu-item" onClick={() => setNav('somthing')}> My Hometown</Button>
       </main>
         {value}
-        <Footer />
     </div>
   )
 }
