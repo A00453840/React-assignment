@@ -8,7 +8,7 @@ const Weather = (props) => {
         <button style={{backgroundColor: '#2424' }} onClick={() => props.data.changetoOther(false)}>Convert to Fahrenheit</button>
     </div> :
     <div>
-    <p> {(32 + (props.degrees * 1.8)).toFixed(2)} &#8457;</p>
+    <p> {((props.degrees * 1.8)+32).toFixed(2)} &#8457;</p>
     
     <button style={{backgroundColor: '#2424' }} onClick={() => props.data.changetoOther(true)}>Convert to Celsius</button>
     
